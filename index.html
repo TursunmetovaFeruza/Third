@@ -4,6 +4,8 @@
 	<meta charset="utf-8">
 	<title>Main page</title>
 	<link rel="stylesheet" href="./style/style.css">
+	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 </head>
 
@@ -55,14 +57,84 @@
 		</div>
 	</header>
 	<section class="slider">
-		<div class="slide">
-			<img name="slide-img" src="">
-			<div class="slide-overlay">
-				<h1 class="slide-title"></h1>
-				<p class="slide-text"></p>
+		<div class="container">
+			<div class="slide">
+				<div class="slike">
+					<div><img name="slide-img" class="sl-img" src="https://sandraswancoaching.com/wp-content/	uploads/2014/05/bigstock-woods-44771632-900x350.jpg">
+					<div class="slide-overlay">
+						<h1 class="slide-title">Lorem ipsum dolor</h1>
+						<p class="slide-text">“ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non diam erat. In frin gilla massa ut nisi „</p>
+					</div>
+					</div>
+					<div>
+					<img name="slide-img" class="sl-img" src="https://msdnshared.blob.core.windows.net/media/2016/11/900x350-IT-Pro-Camp.png">
+					<div class="slide-overlay">
+						<h1 class="slide-title">Lorem ipsum dolor</h1>
+						<p class="slide-text">“ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non diam erat. In frin gilla massa ut nisi „</p>
+					</div>
+					</div>
+					<div>
+					<img name="slide-img" class="sl-img" src="./style/img/Rectangle.jpg">
+					<div class="slide-overlay">
+						<h1 class="slide-title">Lorem ipsum dolor</h1>
+						<p class="slide-text">“ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non diam erat. In frin gilla massa ut nisi „</p>
+					</div>
+					</div>
+					<div>
+					<img name="slide-img" class="sl-img" src="./style/img/Rectangle.jpg">
+					<div class="slide-overlay">
+						<h1 class="slide-title">Lorem ipsum dolor</h1>
+						<p class="slide-text">“ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non diam erat. In frin gilla massa ut nisi „</p>
+					</div>
+					</div>
+					<div>
+					<img name="slide-img" class="sl-img" src="./style/img/Rectangle.jpg">
+					<div class="slide-overlay">
+						<h1 class="slide-title">Lorem ipsum dolor</h1>
+						<p class="slide-text">“ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non diam erat. In frin gilla massa ut nisi „</p>
+					</div>
+					</div>
 			</div>
 		</div>
 	</section>
-	<script src="js/style.js"></script>
+		<content class="content">
+			<div class="container">
+				<div class="content-inner">
+					<div class="services" >
+					<h1 class="content-title"><span>You Title</span></h1>
+					<div class="s-1" >
+					<div class="s-2"style="margin-right: 37px;">
+						<img width="64px" height="64px" src="./style/img/Rectangle.jpg">
+						<h1 class="s-2-title">Lorem ipsum dolor</h1><br>
+						<p class="s-2-text">Orciinterdum condimenterdum nullamcorper elit nam curabitur laoreet met praesenean et iac.</p>
+					</div>
+					<div class="s-2" style=" margin-right: 37px">
+						<img width="64px" height="64px" src="./style/img/Rectangle.jpg">
+						<h1 class="s-2-title">Lorem ipsum dolor</h1>
+						<p>Orciinterdum condimenterdum nullamcorper elit nam curabitur laoreet met praesenean et iac.</p>
+					</div>
+					<div class="s-2" >
+						<img width="64px" height="64px"  src="./style/img/Rectangle.jpg">
+						<h1 class="s-2-title">Lorem ipsum dolor</h1>
+						<p>Orciinterdum condimenterdum nullamcorper elit nam curabitur laoreet met praesenean et iac.</p>
+					</div>
+					</div>
+					</div>
+				</div>
+			</div>
+		</content>
+		<script src="js/style.js"></script>
+	
+	<script type="text/javascript" src="slick/slick.min.js"></script>
+<script>
+	$('.slike').slick({
+  dots: true,
+  infinite: true,
+  speed: 500,
+  fade: true,
+  cssEase: 'linear'
+});
+
+</script>
 </body>
 </html>
