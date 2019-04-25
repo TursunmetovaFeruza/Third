@@ -1,7 +1,7 @@
 var images=[];
 images=[
- '../Second/style/img/Minus.png',
- '../Second/style/img/Plus.png'
+ './style/img/Minus.png',
+ './style/img/Plus.png'
 ];
 	document.opcl.src=images[0];
 var a=document.opcl.src;
